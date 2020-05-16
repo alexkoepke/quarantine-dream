@@ -1,5 +1,5 @@
 ## Project
-dist/*
+dev/dist/*
 
 ## Node.js
 lib-cov

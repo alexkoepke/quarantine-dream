@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Static Site Boilerplate</title>
+    <meta name="description" content="" />
+</head>
+<body>
+<nav class="navbar navbar-expand">
+    <div class="left-menu mr-auto">
+        <ul class="navbar-nav justify-content-around">
+            <li class="nav-item d-flex">
+                <a class="nav-link my-auto" href="#"><img src="images/yfs-logo.svg" alt=""></a>
+            </li>
+            <li class="nav-item d-flex">
+                <a class="nav-link my-auto" href="#"><img src="images/B.svg" alt=""></a>
+            </li>
+            <li class="nav-item d-flex">
+                <a class="nav-link my-auto" href="#"><img src="images/prize.svg" alt=""></a>
+            </li>
+        </ul>
+    </div>
+    <div class="right-menu ml-auto">
+        <ul class="navbar-nav justify-content-around">
+            <li class="nav-item d-flex">
+                <a class="nav-link my-auto" href="#"><img src="images/bud.svg" alt=""></a>
+            </li>
+            <li class="nav-item d-flex">
+                <a class="nav-link my-auto" href="#"><img src="images/penn.svg" alt=""></a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div class="container">
+    <div class="dipshits justify-content-around">
+        <img id="image" src="images/dipshit-1.png" alt="">
+    </div>
+
+<div>
+
+</body>
+<script>
+    let imageSources = [
+        "images/dipshit-1.png",
+        "images/dipshit-2.png",
+        "images/dipshit-3.png",
+        "images/dipshit-4.png",
+        "images/dipshit-5.png",
+        "images/dipshit-6.png",
+        "images/dipshit-8.png",];
+
+    let index = 0;
+    setInterval (function(){
+        if (index === imageSources.length) {
+            index = 0;
+        }
+        document.getElementById("image").src = imageSources[index];
+        index++;
+    } , 2000);
+</script>
+</html>

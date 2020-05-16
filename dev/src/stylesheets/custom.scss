@@ -1,0 +1,31 @@
+body {
+  background-color: #bcd500;
+}
+
+.navbar {
+  position: absolute;
+  width: 100vw;
+}
+
+.left-menu,
+.right-menu {
+  width: 50vw;
+
+  @include media-breakpoint-up(md) {
+    width: 40vw;
+  }
+
+  img {
+    max-height: 2rem;
+
+    @include media-breakpoint-up(md) {
+      max-height: 5rem;
+    }
+  }
+}
+
+.dipshits {
+  img {
+    width: 100%;
+  }
+}
