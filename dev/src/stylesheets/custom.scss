@@ -24,8 +24,14 @@ body {
   }
 }
 
-.dipshits {
-  img {
-    width: 100%;
+.dipshit-container {
+  @include media-breakpoint-down(md) {
+    height: 100vh;
+  }
+
+  .dipshits {
+    img {
+      width: 100%;
+    }
   }
 }
