@@ -1,9 +1,8 @@
 body {
   background-color: #bcd500;
 }
-//#f71701
+
 .navbar {
-  //position: absolute;
   width: 100vw;
 }
 
@@ -20,31 +19,25 @@ body {
     &.prize {
       max-height: 7rem;
     }
-
   }
+}
 
-
-  .prize-item {
-    @include media-breakpoint-up(lg) {
-      margin-right: 30vw;
-    }
+.prize-item {
+  @include media-breakpoint-up(lg) {
+    margin-right: 30vw;
   }
-
 }
 
 .dipshit-container {
   position: fixed;
   left: 50%;
   transform: translateX(-50%);
-  bottom: 0px;
+  bottom: 0;
 
   @include media-breakpoint-up(md) {
     bottom: unset;
-    top: 10vh
+    top: 10vh;
   }
-  //@include media-breakpoint-down(md) {
-  //  height: 100vh;
-  //}
 
   .dipshits {
     img {
@@ -54,7 +47,7 @@ body {
 }
 
 .bottom-menu {
-  font-family: tassemedium;
+  font-family: tassemedium, Helvetica, Arial, Verdana, Tahoma, sans-serif;
   text-transform: uppercase;
   color: #f71701;
   -webkit-text-fill-color: #bcd500; /* Will override color (regardless of order) */
