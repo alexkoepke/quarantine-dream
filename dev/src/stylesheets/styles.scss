@@ -1,7 +1,13 @@
 // Add your styles here
 //@import "custom";
+//@import "variables";
 @import "~bootstrap/scss/bootstrap";
 @import "fonts";
 @import "custom";
+@import "home";
 @import "scroll-loop";
 @import "schedule";
+@import "teams";
+@import "standings";
+@import "bombs";
+@import "tables";

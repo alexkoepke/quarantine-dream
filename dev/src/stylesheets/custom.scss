@@ -66,8 +66,4 @@ body {
       -webkit-text-stroke-color: #f71701 !important;
     }
   }
-
-  @include media-breakpoint-up(md) {
-    margin-top: 70vh;
-  }
 }

@@ -1,0 +1,18 @@
+table {
+  thead {
+    tr {
+      th {
+        border-bottom: 5px solid $white;
+      }
+    }
+  }
+
+  tbody {
+    tr {
+      height: 2.7rem;
+      padding: 0;
+      margin: 0;
+      border-bottom: 2px dotted $white;
+    }
+  }
+}

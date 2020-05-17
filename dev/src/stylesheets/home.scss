@@ -1,0 +1,7 @@
+.home {
+  .bottom-menu {
+    @include media-breakpoint-up(md) {
+      margin-top: 70vh;
+    }
+  }
+}
