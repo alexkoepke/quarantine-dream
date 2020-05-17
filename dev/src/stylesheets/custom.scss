@@ -49,14 +49,15 @@ body {
 .bottom-menu {
   text-align: center;
   font-size: 5rem;
+
   a {
-    @include tassemedium();
     text-transform: uppercase;
     color: #f71701 !important;
     -webkit-text-fill-color: #bcd500; /* Will override color (regardless of order) */
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #f71701;
 
+    @include tassemedium();
 
     &:visited {
       color: #f71701 !important;
@@ -65,7 +66,6 @@ body {
       -webkit-text-stroke-color: #f71701 !important;
     }
   }
-
 
   @include media-breakpoint-up(md) {
     margin-top: 70vh;
