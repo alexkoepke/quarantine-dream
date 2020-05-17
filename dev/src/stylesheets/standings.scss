@@ -1,8 +1,8 @@
 body.standings {
-  //background: #bcd500 center / contain no-repeat url('../images/schedule-bg.png');
-  background: #bcd500 center 12vh / contain no-repeat url('../images/schedule-bg.png');
+  //background: #bcd500 center / contain no-repeat url('../images/standings.png');
+  background: #bcd500 center 12vh / contain no-repeat url('../images/standings.png');
 
   @include media-breakpoint-up(md) {
-    background: #bcd500 center / contain no-repeat url('../images/schedule-bg.png');
+    background: #bcd500 center / contain no-repeat url('../images/standings.png');
   }
 }
