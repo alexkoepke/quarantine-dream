@@ -21,6 +21,9 @@ const html = {
 const js = {
   test: /\.js(x)?$/,
   exclude: /node_modules/,
+  // options: {
+  //   fix: true
+  // },
   use: [
     {
       loader: 'babel-loader',

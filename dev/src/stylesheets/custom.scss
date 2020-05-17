@@ -10,14 +10,14 @@ body {
   width: 100vw;
 
   img {
-    max-height: 3rem;
+    max-height: 1.8rem;
 
     @include media-breakpoint-up(md) {
       max-height: 4rem;
     }
 
     &.prize {
-      max-height: 7rem;
+      max-height: 6rem;
     }
   }
 }
@@ -47,18 +47,27 @@ body {
 }
 
 .bottom-menu {
-  font-family: tassemedium, Helvetica, Arial, Verdana, Tahoma, sans-serif;
-  text-transform: uppercase;
-  color: #f71701;
-  -webkit-text-fill-color: #bcd500; /* Will override color (regardless of order) */
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #f71701;
   text-align: center;
   font-size: 5rem;
+  a {
+    @include tassemedium();
+    text-transform: uppercase;
+    color: #f71701 !important;
+    -webkit-text-fill-color: #bcd500; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #f71701;
+
+
+    &:visited {
+      color: #f71701 !important;
+      -webkit-text-fill-color: #bcd500 !important; /* Will override color (regardless of order) */
+      -webkit-text-stroke-width: 1px !important;
+      -webkit-text-stroke-color: #f71701 !important;
+    }
+  }
+
 
   @include media-breakpoint-up(md) {
     margin-top: 70vh;
   }
 }
-
-//.ticker {}

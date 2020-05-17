@@ -1,3 +1,4 @@
 // Add your scripts here
 import 'bootstrap';
-import './ticker';
+// import './ticker';
+import './scroll-loop';

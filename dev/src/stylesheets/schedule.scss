@@ -1,0 +1,29 @@
+body.schedule {
+  background: #bcd500 center / contain no-repeat url('../images/schedule-bg.png');
+
+  .bottom-menu {
+    margin-top: 10vh;
+  }
+
+  h1 {
+    @include plaak56();
+  }
+
+  .schedule-card {
+    @include plaak56();
+
+    .date {
+      border-bottom: 0.25rem solid $white;
+
+      span {
+        font-size: 0.85rem;
+      }
+    }
+
+    .teams {
+      span {
+        font-size: 3rem;
+      }
+    }
+  }
+}

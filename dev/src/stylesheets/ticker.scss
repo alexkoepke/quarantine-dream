@@ -1,8 +1,21 @@
-.holder {
-  background-color: #ccc;
-  width: 300px;
-  height: 250px;
+.ticker {
+  position: absolute;
+  height: 100vh;
   overflow: hidden;
+  top: 0;
+
+  &.right-ticker {
+    right: 0;
+  }
+}
+
+.holder {
+  flex-direction: column;
+  width: 2rem;
+  ////background-color: #ccc;
+  //width: 300px;
+  height: 100vh;
+  //overflow: hidden;
   padding: 10px;
   font-family: plaak56-expanded_black, Helvetica, Arial, Verdana, Tahoma, sans-serif;
 }

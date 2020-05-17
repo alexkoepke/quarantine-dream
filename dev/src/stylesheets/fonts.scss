@@ -15,3 +15,27 @@
   font-weight: normal;
   font-style: normal;
 }
+
+@mixin tassemedium($size: false, $colour: false, $weight: false,  $lh: false) {
+  font-family: 'tassemedium', Helvetica, Arial, sans-serif;
+
+  @if $size { font-size: $size; }
+
+  @if $colour { color: $colour; }
+
+  @if $weight { font-weight: $weight; }
+
+  @if $lh { line-height: $lh; }
+}
+
+@mixin plaak56($size: false, $colour: false, $weight: false,  $lh: false) {
+  font-family: 'plaak56-expanded_black', Helvetica, Arial, sans-serif;
+
+  @if $size { font-size: $size; }
+
+  @if $colour { color: $colour; }
+
+  @if $weight { font-weight: $weight; }
+
+  @if $lh { line-height: $lh; }
+}
