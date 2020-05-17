@@ -1,9 +1,25 @@
 body {
   background-color: #bcd500;
+  min-height: 100vh;
+
+  @include media-breakpoint-down(sm) {
+    & > .container-fluid {
+      margin-top: 128px;
+    }
+  }
 }
 
 .navbar {
   width: 100vw;
+  background-color: #bcd500;
+  position: fixed;
+  z-index: $zindex-sticky;
+
+  @include media-breakpoint-up(md) {
+    background-color: unset;
+    position: unset;
+    z-index: unset;
+  }
 }
 
 .top-menu {
@@ -49,6 +65,10 @@ body {
 .bottom-menu {
   text-align: center;
   font-size: 5rem;
+
+  //@include media-breakpoint-up(md) {
+  //  margin-top: 30vh;
+  //}
 
   a {
     text-transform: uppercase;

@@ -1,7 +1,20 @@
 body.bombs {
-  background: #bcd500 center 10vh / 200vw repeat-y url('../images/schedule-bg.png');
+  background: #bcd500 center 12.2vh / 200vw repeat-y url('../images/bombs-bg.png');
 
   @include media-breakpoint-up(md) {
-    background: #bcd500 center / contain no-repeat url('../images/schedule-bg.png');
+    background: #bcd500 center / contain no-repeat url('../images/bombs-bg.png');
+  }
+
+  tbody {
+    td {
+      //@include tassemedium();
+      font-size: 2.5rem;
+      font-weight: bold;
+
+      @include media-breakpoint-up(md) {
+        font-size: 1.5rem;
+        font-weight: bold;
+      }
+    }
   }
 }
