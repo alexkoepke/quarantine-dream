@@ -66,9 +66,11 @@ body {
   text-align: center;
   font-size: 5rem;
 
-  //@include media-breakpoint-up(md) {
-  //  margin-top: 30vh;
-  //}
+  @include media-breakpoint-up(md) {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+  }
 
   a {
     text-transform: uppercase;
