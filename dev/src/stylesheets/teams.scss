@@ -1,7 +1,19 @@
 body.teams {
-  background: #bcd500 center 10vh / 200vw repeat-y url('../images/schedule-bg.png');
+  background: #bcd500 center 10vh / 200vw repeat-y url('../images/teams-bg.png');
 
   @include media-breakpoint-up(md) {
-    background: #bcd500 center / contain no-repeat url('../images/schedule-bg.png');
+    background: #bcd500 center / contain no-repeat url('../images/teams-bg.png');
+  }
+
+  .team-card {
+    text-transform: uppercase;
+
+    .team-name {
+      font-size: 2.5rem;
+    }
+
+    .player {
+      font-size: 1.75rem;
+    }
   }
 }
