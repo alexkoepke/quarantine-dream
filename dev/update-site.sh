@@ -1,7 +1,8 @@
 #!/bin/zsh
 
-rm ../main.*.css
+rm ../style.*.css
 rm ../main.*.js
+rm ../main.*.js.map
 cp dist/*.* ../
 cp -r dist/images/* ../images
 cp -r dist/images/favicons/* ../images/favicons
