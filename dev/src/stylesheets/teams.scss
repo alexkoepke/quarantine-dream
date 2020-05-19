@@ -11,10 +11,11 @@ body.teams {
 
     .team-logo {
       height: 10rem;
+      display: flex;
+
       @include media-breakpoint-up(md) {
         height: 7.6rem;
       }
-      display: flex;
 
       img {
         height: 100%;
