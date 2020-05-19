@@ -11,6 +11,7 @@ body.schedule {
 
   h1 {
     @include plaak56();
+    font-size: 3rem;
   }
 
   .schedule-card {

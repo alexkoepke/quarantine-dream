@@ -7,6 +7,19 @@ body.teams {
 
   .team-card {
     text-transform: uppercase;
+    margin-bottom: 2.5rem;
+
+    .team-logo {
+      height: 10rem;
+      @include media-breakpoint-up(md) {
+        height: 7.6rem;
+      }
+      display: flex;
+
+      img {
+        height: 100%;
+      }
+    }
 
     .team-name {
       font-size: 2.5rem;

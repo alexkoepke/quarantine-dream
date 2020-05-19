@@ -2,18 +2,18 @@ body {
   background-color: #bcd500;
   min-height: 100vh;
 
-  @include media-breakpoint-down(sm) {
-    & > .container-fluid {
-      margin-top: 128px;
-    }
-  }
+  //@include media-breakpoint-down(sm) {
+  //  & > .container-fluid {
+  //    margin-top: 128px;
+  //  }
+  //}
 }
 
 .navbar {
   width: 100vw;
-  background-color: #bcd500;
-  position: fixed;
-  z-index: $zindex-sticky;
+  //background-color: #bcd500;
+  //position: fixed;
+  //z-index: $zindex-sticky;
 
   @include media-breakpoint-up(md) {
     background-color: unset;
@@ -33,7 +33,7 @@ body {
     }
 
     &.prize {
-      max-height: 6rem;
+      max-height: 4.5rem;
     }
   }
 }
@@ -75,7 +75,7 @@ body {
   a {
     text-transform: uppercase;
     color: #f71701 !important;
-    -webkit-text-fill-color: #bcd500; /* Will override color (regardless of order) */
+    -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #f71701;
 
@@ -83,8 +83,8 @@ body {
 
     &:visited {
       color: #f71701 !important;
-      -webkit-text-fill-color: #bcd500 !important; /* Will override color (regardless of order) */
-      -webkit-text-stroke-width: 1px !important;
+      -webkit-text-fill-color: transparent !important; /* Will override color (regardless of order) */
+      -webkit-text-stroke-width: 3px !important;
       -webkit-text-stroke-color: #f71701 !important;
     }
   }
