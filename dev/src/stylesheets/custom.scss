@@ -76,7 +76,7 @@ body {
     text-transform: uppercase;
     color: #f71701 !important;
     -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
-    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-width: 1.3px;
     -webkit-text-stroke-color: #f71701;
 
     @include tassemedium();
@@ -84,7 +84,7 @@ body {
     &:visited {
       color: #f71701 !important;
       -webkit-text-fill-color: transparent !important; /* Will override color (regardless of order) */
-      -webkit-text-stroke-width: 3px !important;
+      -webkit-text-stroke-width: 1.3px !important;
       -webkit-text-stroke-color: #f71701 !important;
     }
   }

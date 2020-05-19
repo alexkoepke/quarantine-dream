@@ -23,12 +23,18 @@ body.teams {
     }
 
     .team-name {
-      font-size: 2.5rem;
+      @include plaak56();
+
+      font-size: 3rem;
       font-weight: 700;
+      line-height: 3rem;
+      //font-weight: bold;
     }
 
     .player {
-      font-size: 1.75rem;
+      @include plaak56();
+
+      font-size: 1.25rem;
     }
   }
 }
