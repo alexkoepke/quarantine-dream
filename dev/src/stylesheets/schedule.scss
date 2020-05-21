@@ -1,5 +1,5 @@
 body.schedule {
-  background: #bcd500 center 10vh / 200vw repeat-y url('../images/schedule-bg.png');
+  background: #bcd500;
 
   @include media-breakpoint-up(md) {
     background: #bcd500 center / contain no-repeat url('../images/schedule-bg.png');

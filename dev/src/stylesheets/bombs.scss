@@ -1,5 +1,5 @@
 body.bombs {
-  background: #bcd500 center 12.2vh / 200vw repeat-y url('../images/bombs-bg.png');
+  background: #bcd500;
 
   @include media-breakpoint-up(md) {
     background: #bcd500 center / contain no-repeat url('../images/bombs-bg.png');

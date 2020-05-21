@@ -1,5 +1,6 @@
 body.standings {
-  background: #bcd500 center 10vh / 200vw repeat-y url('../images/standings.png');
+  //background: #bcd500 center 10vh / 200vw repeat-y url('../images/standings.png');
+  background: #bcd500;
   //background: #bcd500 center 12vh / contain no-repeat url('../images/standings.png');
 
   @include media-breakpoint-up(md) {
