@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://quarantinedream.koepke.io/sitemap.xml
-Host: https://quarantinedream.koepke.io
+Sitemap: https://qdl.dipshithq.com//sitemap.xml
+Host: https://qdl.dipshithq.com

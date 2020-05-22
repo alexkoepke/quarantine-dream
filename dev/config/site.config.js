@@ -12,10 +12,10 @@ const config = {
   site_name: 'Quarantine Dream',
 
   // Your website's description, used for favicon meta tags
-  site_description: 'A modern boilerplate for static website development',
+  site_description: '',
 
   // Your website's URL, used for sitemap
-  site_url: 'https://quarantinedream.koepke.io',
+  site_url: 'https://qdl.dipshithq.com/',
 
   // Google Analytics tracking ID (leave blank to disable)
   googleAnalyticsUA: 'UA-166785859-1',
