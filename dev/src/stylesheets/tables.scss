@@ -2,7 +2,7 @@ table {
   thead {
     tr {
       th {
-        border-bottom: 5px solid $white;
+        border-bottom: rem(5px) solid $white;
       }
     }
   }
@@ -12,7 +12,7 @@ table {
       height: 2.7rem;
       padding: 0;
       margin: 0;
-      border-bottom: 2px dotted $white;
+      border-bottom: rem(2px) dotted $white;
     }
   }
 }

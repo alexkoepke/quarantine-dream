@@ -39,3 +39,7 @@
 
   @if $lh { line-height: $lh; }
 }
+
+@function rem($size) {
+  @return $size / 16px * 1rem;
+}

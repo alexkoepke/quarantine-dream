@@ -2,7 +2,7 @@ body.schedule {
   background: #bcd500;
 
   @include media-breakpoint-up(md) {
-    background: #bcd500 center / contain no-repeat url('../images/schedule-bg.png');
+    background: #bcd500 center rem(10px) / contain no-repeat url('../images/schedule-bg.png');
   }
 
   .bottom-menu {

@@ -16,16 +16,17 @@
   //width: 300px;
   height: 100vh;
   //overflow: hidden;
-  padding: 10px;
-  font-family: plaak56-expanded_black, Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  padding: rem(10px);
+
+  @include plaak56();
 }
 
 .holder .mask {
   position: relative;
   left: 0;
-  top: 10px;
-  width: 300px;
-  height: 240px;
+  top: rem(10px);
+  width: rem(300px);
+  height: rem(240px);
   overflow: hidden;
 }
 
@@ -37,7 +38,7 @@
 }
 
 .holder ul li {
-  padding: 10px 0;
+  padding: rem(10px) 0;
   writing-mode: vertical-rl;
   text-orientation: upright;
 }
