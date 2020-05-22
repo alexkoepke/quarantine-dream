@@ -33,5 +33,23 @@ body.schedule {
         line-height: 3rem;
       }
     }
+
+    .score {
+      span {
+        color: #f00;
+        font-size: 3rem;
+        //line-height: 3rem;
+      }
+    }
+  }
+
+  .archive-list {
+    a {
+      color: $white;
+
+      &:visited {
+        color: $white;
+      }
+    }
   }
 }
