@@ -1,6 +1,10 @@
 body.teams {
   background: #bcd500;
 
+  .last {
+    margin-bottom: rem(122px);
+  }
+
   @include media-breakpoint-up(md) {
     background: #bcd500 center / contain no-repeat url('../images/teams-bg.png');
   }
